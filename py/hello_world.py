@@ -4,7 +4,7 @@ def main():
 
 
 def a():
-    return 1 + 1    
+    return 1 + 1
 
 
 if __name__ == '__main__':
