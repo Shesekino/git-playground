@@ -11,6 +11,7 @@ a short-lived repository for some git training
 
 # bonus scenarios (we probably won't need these)
 - cherry-picking
+- setting branch upstream
 - someone `push -f`ed into a shared branch
 - multiple commits on the same file
 - checking out a file from a different branch
