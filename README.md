@@ -3,9 +3,9 @@ a short-lived repository for some git training
 
 # scenarios we will try to master
 - start working on a new branch (clone, fetch, checkout -b, reset --hard)
-  - create "<name>/master"
+  - create "name/master"
   - introduce parameters to a() on a lang of your choice.
-  - branch off from there to "<name>/params".
+  - branch off from there to "name/params".
 - preparing a WIP commit (add, reset, diff, diff --cached, push, push -u)
   - view changes with `diff`
   - `add` a file
@@ -18,15 +18,15 @@ a short-lived repository for some git training
 - moving between branches (stash & stash pop, checkout, log)
   - make some changes
   - `stash`
-  - `checkout "<name>/master"`
+  - `checkout "name/master"`
   - `checkout` back to where you were (assist with `branch`)
   - `stash pop`
   - `diff` and `log` to confirm
 - PR - basic
-  - merge to "<name>/master" view the implications locally
+  - merge to "name/master" view the implications locally
   - cleanup (`branch -D`)
 - resolving conflicts (rebase)
-  - prepare "<name>/multiply" and "<name>/rename_a"
+  - prepare "name/multiply" and "name/rename_a"
   - merge "multiply" to "master. rebase "rename_a" on master. resolve!
 - PR - advanced - preparing a PR-worthy branch from a collection of WIP commits (rebase -i, reset, push -f, commit --amend)
   - add some separate commits
