@@ -7,6 +7,7 @@ a short-lived repository for some git training
 - moving between branches (stash & stash pop, checkout, log)
 - resolving conflicts (rebase)
 - preparing a PR-worthy branch from a collection of WIP commits (rebase -i, reset, push -f, commit --amend)
+- cleanup (branch -D)
 
 # bonus scenarios (we probably won't need these)
 - cherry-picking
