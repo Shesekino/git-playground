@@ -1,10 +1,10 @@
 def main():
     print('Hello world!')
-    print('a() ==', a())
+    print('a(1,2) ==', a(1,2))
 
 
-def a():
-    return 1 + 1
+def a(x,y):
+    return x + y
 
 
 if __name__ == '__main__':
