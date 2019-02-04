@@ -15,13 +15,6 @@ a short-lived repository for some git training
   - `push -u`
   - `commit --amend` with a better one
   - `push -f`
-- moving between branches (stash & stash pop, checkout, log)
-  - make some changes
-  - `stash`
-  - `checkout "name/master"`
-  - `checkout` back to where you were (assist with `branch`)
-  - `stash pop`
-  - `diff` and `log` to confirm
 - PR - basic
   - merge to "name/master" view the implications locally
   - cleanup (`branch -D`)
@@ -40,3 +33,10 @@ a short-lived repository for some git training
 - multiple commits on the same file
 - checking out a file from a different branch
 - deleting a remote branch
+- moving between branches (stash & stash pop, checkout, log)
+  - make some changes
+  - `stash`
+  - `checkout "name/master"`
+  - `checkout` back to where you were (assist with `branch`)
+  - `stash pop`
+  - `diff` and `log` to confirm
