@@ -1,9 +1,9 @@
 def main():
     print('Hello world!')
-    print('a(1,2) ==', a(1,2))
+    print('b(1,2) ==', b(1,2))
 
 
-def a(x,y):
+def b(x,y):
     return x * y
 
 
