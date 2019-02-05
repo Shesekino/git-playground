@@ -4,7 +4,7 @@ function main() {
 }
 
 function a (c,b) {
-  return c + b;
+  return c * b;
 }
 
 if (require.main === module) {
