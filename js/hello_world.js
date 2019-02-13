@@ -1,9 +1,9 @@
 function main() {
   console.log('Hello world!');
-  console.log('a() ===', a(3,4));
+  console.log('a() ===', b(5,6));
 }
 
-function a(x, y) {
+function b(x, y) {
   return x * y;
 }
 
