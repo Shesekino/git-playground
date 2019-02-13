@@ -1,10 +1,10 @@
 function main() {
   console.log('Hello world!');
-  console.log('a() ===', a());
+  console.log('a() ===', a(1,21,2));
 }
 
-function a() {
-  return 1 + 1;
+function a(n,m) {
+  return n+m;
 }
 
 if (require.main === module) {
